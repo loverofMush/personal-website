@@ -1,0 +1,9 @@
+.main-content {
+    /* border: 2px solid grey; */
+    border-radius: 3%;
+    background: #fff;
+    height: 85vh;
+    overflow: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}

@@ -1,0 +1,116 @@
+.sideNav {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    border: 2px solid #f8f9fa;
+    border-radius: 3%;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.avatar-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.bio {
+    display: grid;
+}
+
+.bio-inner, .intro, .locale {
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    margin-bottom: 0;
+    font-family: 'Srisakdi', cursive;
+}
+
+figure {
+    margin: 0 0 0 !important;
+}
+
+#bio-text {
+    width: 80%;
+    text-align: center;
+    font-size: .9em;
+    font-weight: 700;
+    color: #52585f;
+    margin-top: 0;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contact {
+    background: #d62c2c;
+    border-color: #d62c2c;
+    border-radius: 20px;
+    font-size: calc(.6em + 1vw);
+    font-weight: bolder;
+    color: white;
+}
+
+.btn-contact:hover {
+    color: white;
+}
+
+.fa {
+    font-size: calc(1.5em + 1vw);
+}
+
+li#fonts {
+    padding-left: 10px;
+}
+
+li#fonts-1 a, li#fonts a {
+    color: #669dda
+}
+
+h2.intro p {
+    color: #669dda;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+h2.intro p span{
+    color: #d62c2c;
+}
+
+@media only screen and (max-width:967px) {
+    .sideNav {
+        width: 100%;
+        position: relative;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:1220px) {
+    .contact {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .col-12 {
+       padding-bottom: 20px;
+    }
+}

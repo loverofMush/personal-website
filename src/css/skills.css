@@ -1,0 +1,101 @@
+
+div#frame {
+    margin-top: 30px;
+}
+
+/* li.frame {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid grey;
+    border-radius: 20%;
+    margin-left: 10px;
+    background: #17a2b8;
+    color: #f8f9fa;
+    font-size: 1.2em;
+    font-weight: 500;
+} */
+
+h2.heading {
+    margin-bottom: 1em;
+}
+
+hr#about {
+    width: 150px;
+}
+
+hr.divider {
+    width: 200px;
+    border-bottom: 3px solid #d62c2c;
+    margin: -20px 0px
+}
+
+.frames {
+    list-style: none;
+    margin: 0;
+    overflow: hidden; 
+    padding: 0;
+}
+  
+.frame {
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    color: #0c5460;
+    display: block;
+    font-size: 1.1em;
+    font-weight: 500;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+}
+  
+.frame::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+}
+  
+.frame::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #eee;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.frame:hover {
+    background-color: crimson;
+    color: white;
+}
+  
+.frame:hover::after {
+    border-left-color: crimson; 
+}
+
+h6.tech {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:767px) {
+    .frames li {
+        /* float: left;  */
+        width: 50vw;
+    }
+
+    .frame {
+        height: 30px;
+    }
+}
