@@ -29,6 +29,8 @@
     max-width: 400px;
     margin: auto;
     overflow: hidden;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
 }
   
 .img-content .img-content-overlay {
@@ -127,13 +129,19 @@
     line-height: 1.68em;
 }
 
-.img-margin {
+/* .img-margin {
     padding: 20px;
-}
+} */
   
 dd {
     margin-bottom: 0;
     margin-left: 0;
     color: #ffffff;
     font-size: 0.6rem;
+}
+
+@media screen and (min-width: 768px){
+    .img-margin.col-12{
+      max-width: 50%;
+    }
 }
