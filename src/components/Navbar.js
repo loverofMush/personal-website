@@ -17,7 +17,12 @@ function Navbar(props) {
                     :
                     <a onClick={props.handleRoute} >Work</a> 
                 }
-                <a className="button" >Download Resume</a>
+                <a 
+                    className="button" 
+                    href="https://www.dropbox.com/s/kk9lj36vdllz5zo/Timothy%20Akinyelu%20IT%20CV.pages?dl=0"
+                >
+                    Download Resume
+                </a>
                 {/* <a  href className="current">Resume</a> */}
             </nav>
         </header>
