@@ -19,7 +19,7 @@ function Navbar(props) {
                 }
                 <a 
                     className="button" 
-                    href="https://www.dropbox.com/s/kk9lj36vdllz5zo/Timothy%20Akinyelu%20IT%20CV.pages?dl=0"
+                    href="https://www.dropbox.com/s/2gjglgpnbq8eb3l/TimothyAkinyeluResume.pdf?dl=0"
                 >
                     Download Resume
                 </a>
